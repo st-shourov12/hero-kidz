@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         <header className="py-2 md:max-w-11/12 mx-auto">
           <Navbar></Navbar>
         </header>
-        <main className="py-2 md:max-w-11/12 mx-auto min-h-[70vh] flex flex-col justify-between items-center">
+        <main className="py-2 md:max-w-11/12 mx-auto min-h-[clac(100vh-302px)] flex flex-col justify-between items-center">
           {children}
         </main>
         <footer>
