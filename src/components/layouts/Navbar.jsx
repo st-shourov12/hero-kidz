@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from './Logo';
-import Navlink from './buttons/Navlink';
+import Navlink from '../buttons/Navlink';
 import Link from 'next/link';
 import { FiShoppingCart } from 'react-icons/fi';
 
