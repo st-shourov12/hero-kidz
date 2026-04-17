@@ -13,7 +13,10 @@ export const bnFont = localFont({
 })
 
 export const metadata = {
-  title: "Hero-Kidz",
+  title: {
+    default: "Hero Kidz",
+    template: "%s | Hero Kidz"
+  },
   description: "Using  next app",
 };
 
