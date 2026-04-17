@@ -1,5 +1,5 @@
 "use client";
-// import { handleCart } from "@/actions/server/cart";
+import { handleCart } from "@/actions/server/cart";
 import { useSession } from "next-auth/react";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";

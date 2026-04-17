@@ -67,7 +67,7 @@ const ProductDetails = async ({ params }) => {
           height={420}
           src={image}
           alt={title}
-          className="w-full h-[420px] object-cover"
+          className="w-full h-105 object-cover"
         />
       </div>
 
